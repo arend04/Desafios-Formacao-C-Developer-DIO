@@ -1,7 +1,6 @@
 #include <iostream>
 #include <algorithm>
 
-
 struct Node {
     int data;
     Node* left;
