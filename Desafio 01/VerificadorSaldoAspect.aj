@@ -1,4 +1,4 @@
-// VerificadorSaldoAspect.aj
+
 public aspect VerificadorSaldoAspect {
     pointcut sacarOperation(double valor):
         execution(* ContaBancaria.sacar(double)) && args(valor);
