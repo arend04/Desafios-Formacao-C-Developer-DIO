@@ -1,4 +1,3 @@
-// ContaBancaria.java
 public class ContaBancaria {
     private String tipo;
     private double saldo;
